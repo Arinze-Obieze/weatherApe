@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import SearchInput from "@/components/SearchInput";
 import Image from "next/image";
 import { useState, useEffect } from "react";
@@ -45,7 +47,10 @@ const Weather = () => {
     }
 
     return (
+
+
         <div>
+        <Navbar/>
             <div className="bg-indigo-600 flex p-3 justify-between">
                 <div className="flex space-x-2">
                     <input
@@ -132,6 +137,8 @@ const Weather = () => {
                     </div>
                 )}
             </div>
+
+            <Footer/>
         </div>
     );
 };
