@@ -5,7 +5,7 @@ const Section = () => {
         <div>
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
                         <Image width={100} height={100} className="object-cover object-center rounded  self-center" alt="hero" src="/weather.svg"/>
                         <Image width={100} height={100} className="object-cover object-center rounded  self-center" alt="hero" src="/weather-showers-scattered.svg"/>
                         <Image width={100} height={100} className="object-cover object-center rounded  self-center" alt="hero" src="/weather.svg"/>
