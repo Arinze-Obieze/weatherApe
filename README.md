@@ -1,1 +1,1 @@
-This is a weather app built with openWeather Api and Next.Js,Tailwind css Framework
+This is a weather app built with openWeather API, Next.Js and Tailwind css Framework
